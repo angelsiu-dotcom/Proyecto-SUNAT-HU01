@@ -1,0 +1,40 @@
+<div class="sunat-container">
+  <div class="sunat-header">
+    <div class="logo">
+      <span class="logo-red">SUNAT</span>
+    </div>
+  </div>
+
+  <div class="login-card">
+    <div class="card-title">SUNAT Operaciones en Línea</div>
+
+    <div class="tabs">
+      <button class="tab active">RUC</button>
+      <button class="tab">DNI</button>
+    </div>
+
+    <form (ngSubmit)="onLogin()">
+      <div class="form-group">
+        <input type="text" [(ngModel)]="ruc" name="ruc" placeholder="RUC" class="form-control" required />
+      </div>
+
+      <div class="form-group">
+        <input type="text" [(ngModel)]="usuario" name="usuario" placeholder="Usuario" class="form-control" required />
+      </div>
+
+      <div class="form-group">
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Contraseña" class="form-control" required />
+      </div>
+
+      <div class="remember-me">
+        <label>
+          <input type="checkbox" /> Recuérdame, para entrar más fácil
+        </label>
+      </div>
+
+      <a href="#" class="forgot-link">¿Te olvidaste tu usuario o clave?</a>
+
+      <button type="submit" class="btn-submit">Iniciar sesión</button>
+    </form>
+  </div>
+</div>

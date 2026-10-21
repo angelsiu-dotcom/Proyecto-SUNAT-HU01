@@ -1,0 +1,105 @@
+.sunat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+.sunat-header {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border-bottom: 4px solid #0056b3;
+  margin-bottom: 30px;
+}
+
+.logo-red {
+  color: #d9251d;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.login-card {
+  width: 400px;
+  background: white;
+  border: 1px solid #0056b3;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.card-title {
+  background-color: #337ab7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.tab {
+  padding: 6px 16px;
+  border: 1px solid #ccc;
+  background: #e6e6e6;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+form {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.remember-me {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.forgot-link {
+  display: block;
+  font-size: 12px;
+  color: #0066cc;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #286090;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #204d74;
+}
